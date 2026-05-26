@@ -10,3 +10,12 @@
 .column-fixed {
   width: var(--width);
 }
+
+
+figcaption {
+  /* font: smaller serif; */
+  padding: 1px;
+  text-align: center;
+  font-size: 0.5em;
+}
+
