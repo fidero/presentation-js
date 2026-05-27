@@ -1,3 +1,36 @@
+.reveal #global-footer {
+  position: fixed;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: max(0.35rem, env(safe-area-inset-bottom));
+  z-index: 40;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  pointer-events: none;
+}
+
+.reveal #global-footer .footer-text {
+  display: block;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+.reveal #global-footer .footer-left {
+  justify-self: start;
+}
+
+.reveal #global-footer .footer-center {
+  justify-self: center;
+}
+
+.reveal #global-footer .footer-right {
+  justify-self: end;
+}
 .columns {
   display: flex;
   gap: 2rem;
